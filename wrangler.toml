@@ -1,0 +1,15 @@
+name = "tan-starter"
+compatibility_date = "2024-04-03"
+compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = ".output/public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "my-d1-db"
+database_id = "xxxx-xxxx-xxxx-xxxx"
+migrations_dir = "./drizzle"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "my-r2-bucket"
+preview_bucket_name = "my-r2-bucket-preview"

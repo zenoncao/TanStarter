@@ -1,0 +1,22 @@
+{
+  "id": "ws_b79434c8",
+  "name": "tan-starter",
+  "slug": "tan-starter",
+  "defaults": {
+    "model": "claude-sonnet-4-5-20250929",
+    "permissionMode": "safe",
+    "cyclablePermissionModes": [
+      "safe",
+      "ask",
+      "allow-all"
+    ],
+    "thinkingLevel": "think",
+    "enabledSourceSlugs": [],
+    "workingDirectory": "~/Desktop/tan-starter"
+  },
+  "localMcpServers": {
+    "enabled": true
+  },
+  "createdAt": 1772462201021,
+  "updatedAt": 1772462201023
+}
