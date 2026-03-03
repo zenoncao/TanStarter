@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__pencil__get_editor_state",
+      "Bash(bun run lint)",
+      "Bash(npx shadcn@latest add dialog --yes --overwrite)",
+      "Bash(bun x shadcn@latest add field --yes --overwrite)",
+      "Bash(ls -la /Users/caoshisan/Desktop/tan-starter/src/components/*.tsx)"
+    ]
+  }
+}

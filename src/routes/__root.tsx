@@ -42,26 +42,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        <nav className="p-4 border-b flex justify-between items-center text-sm font-medium">
-          <div className="flex gap-4">
-            <Link to="/" className="[&.active]:font-bold">
-              Home
-            </Link>
-            <Link to="/users" className="[&.active]:font-bold">
-              Users (D1)
-            </Link>
-            <Link to="/storage" className="[&.active]:font-bold">
-              Storage (R2)
-            </Link>
-            <Link to="/checkout" className="[&.active]:font-bold">
-              Checkout (Stripe)
-            </Link>
-            <Link to="/email/send" className="[&.active]:font-bold">
-              Email (Resend)
-            </Link>
-          </div>
-          <UserNav />
-        </nav>
         <main>{children}</main>
         <TanStackDevtools
           config={{
